@@ -15,4 +15,5 @@ class ZufangfenxiItem(scrapy.Item):
     price = scrapy.Field()
     position = scrapy.Field()
     rooms = scrapy.Field()
+    url = scrapy.Field()
     pass
